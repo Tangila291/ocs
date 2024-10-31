@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>This is contact us</h1>
-   <h3> <a href= "{{url('/')}}">Home</a> <br>
-    <a href= "{{url('/about-us')}}">About us </a><br>
-    <a href="{{url('privacy-policy')}}">Privacy Policy </a>
+    <h1>This is Privacy Policy</h1>
+    <h3><a href= "{{url('/')}}">Home</a> <br>
+    <a href= "{{url('/contact-us')}}">Contact us</a><br>
+      <a href= "{{url('/about-us')}}">About us</a>
   </body>
 </html>

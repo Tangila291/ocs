@@ -10,6 +10,7 @@
   <body>
     <h1>This is About us</h1>
     <h3><a href= "{{url('/')}}">Home</a> <br>
-    <a href= "{{url('/contact-us')}}">Contact us</a>
+    <a href= "{{url('/contact-us')}}">Contact us</a><br>
+    <a href="{{url('privacy-policy')}}">Privacy Policy </a>
   </body>
 </html>

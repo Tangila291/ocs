@@ -8,6 +8,7 @@
   <body>
    <h1> This is my first code</h1>
     <h3><a href="{{url('about-us')}}">About us</a><br>
-     <a href="{{url('contact-us')}}">Contact us</a>
+     <a href="{{url('contact-us')}}">Contact us</a><br>
+     <a href="{{url('privacy-policy')}}">Privacy Policy </a>
   </body>
 </html>
