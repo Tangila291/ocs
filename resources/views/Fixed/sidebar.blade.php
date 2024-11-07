@@ -1,7 +1,7 @@
   <div class="sb-sidenav-menu">
                         <div class="nav">
                          <!-- <div class="sb-sidenav-menu-heading">Core</div> -->
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{url('/')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
 
@@ -47,9 +47,9 @@
                                 Report
                         
 
-                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <a class="nav-link" href="{{url('/wishlist')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Product Request
+                                Wishlist
                         
                           
                 
