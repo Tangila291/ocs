@@ -1,12 +1,8 @@
 <?php
 use App\Http\Controllers\HomePageController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AboutUsController;
-use App\Http\Controllers\ContactUsController;
-use App\Http\Controllers\PrivacyPolicyController;
-
+use App\Http\Controllers\ProductReqController;
 
 Route::get('/',[HomePageController::class,'home']);
-Route::get('/about-us',[AboutUsController::class,'about']);
-Route::get('/contact-us',[ContactUsController::class,'contact']);
-Route::get('/privacy-policy',[PrivacyPolicyController::class,'privacy']);
+
+Route::get('/product-req',[ProductReqController::class,'productreq']);
