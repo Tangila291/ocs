@@ -5,8 +5,51 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
 
-                <a class="nav-link" href="{{url('/product-req')}}">
+
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Category
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Brand
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Product
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Customer
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Order
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Order details
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Payment
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Report
+                        
+
+                                <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Product Request
                         
+                          
                 
