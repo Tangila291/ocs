@@ -2,53 +2,73 @@
 
 
 @section('pages')
+  
+  <h1>Wishlist</h1>
 
-
-
-
-<!-- Product Req Form -->
-
-
-
-<form>
+<form action="{{url('/wishlist-store')}}" method="post">
+@csrf
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      <label for="inputname">Product Name</label>
+      <input type="text" name="name" class="form-control" id="inputname" placeholder="Enter your product name">
+    </div>
+<div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" name="address1" class="form-control" id="inputAddress" placeholder="House,Road & Area">
   </div>
+
+     <!--
+      <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp"name="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  
   <div class="form-group">
     <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" name="address1" class="form-control" id="inputAddress" placeholder="House,Road & Area">
   </div>
-
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" name="address2" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
   <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="select" class="form-control" id="inputCity">
-    </div>
    
-
+    <div class="form-group col-md-4">
+      <label for="inputCity">City</label>
+      <select id="inputCity" class="form-control">
+        <option selected>Choose your city</option>
+        <option>Dhaka</option>
+         <option>Barishal</option>
+          <option>Chittagong</option>
+           <option>Rajshahi</option>
+            <option>Rongpur</option>
+             <option>Khulna</option>
+              <option>Cumilla</option>
+               <option>Sylhet</option>
+               
+               </select>
     </div>
-  <div class="form-group">
-    <label for="inputproductreq">Product Request</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Model number / Serial number">
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+      <div class="form-group">
+    <label for="inputProductName">Product Name</label>
+    <input type="text" class="form-control" id="inputProduct" placeholder="Product Name">
   </div>
 
+    <div class="form-group">
+    <label for="inputProductSN">Serial Number</label>
+    <input type="text" class="form-control" id="inputProductSN" placeholder="Enter product serial number">
   </div>
-  <div class="form-group">
-    <label for="inputAddress">Product Picture</label>
-    <input type="file" class="form-control" id="inputAddress" placeholder="">
-  </div>
 
-  </div>
-  <div class="form-group">
-  </div> <br>
+  </div>  
 
+            -->
 
-
-  <button type="Submit" class="btn btn-dark">Submit</button>
-  
-
+       <br>
+  <button type="submit" class="btn btn-dark">Submit</button>
 </form>
 
 

@@ -3,53 +3,53 @@
                          <!-- <div class="sb-sidenav-menu-heading">Core</div> -->
                             <a class="nav-link" href="{{url('/')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Dashboard
+                                Dashboard </a>
 
 
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Category
+                                Category</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Brand
+                                Brand</a>
+                        
+
+                                <a class="nav-link" href="{{url('/product-list')}}">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Product</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Product
+                                Customer</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Customer
+                                Order</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Order
+                                Order details</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Order details
+                                Payment</a>
                         
 
                                 <a class="nav-link" href="{{url('/product-req')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Payment
-                        
-
-                                <a class="nav-link" href="{{url('/product-req')}}">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Report
+                                Report</a>
                         
 
                                 <a class="nav-link" href="{{url('/wishlist')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Wishlist
+                                Wishlist</a>
                         
                           
                 
