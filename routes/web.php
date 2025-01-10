@@ -1,10 +1,10 @@
 <?php
 
+use App\Http\Controllers\backend\ProductController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\RegisterController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\ProductListController;
 use App\Http\Controllers\WishlistController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,7 +29,12 @@ Route::group(['prefix'=>'admin'], function()
         Route::get('/logout',[LoginController::class,'logout']);
 
         Route::get('/',[HomePageController::class,'home'])->name('home'); 
-        Route::get('/product-list',[ProductListController::class,'productlist']);
+
+            //product 
+        Route::get('/products',[ProductController::class,'products']) ->name('product.list');
+        Route::get('/product/create',[ProductController::class,'productCreate'])->name('product.create.form');
+        Route::post('/product/store',[ProductController::class,'store'])->name('product.store');
+
 
         Route::get('/wishlist',[WishlistController::class,'wishlist'])->name('c-wishlist');
         Route::post('/wishlist-store',[WishlistController::class,'wishlistSubmit'])->name('wishlist-s');

@@ -17,7 +17,7 @@
                                 Brand</a>
                         
 
-                                <a class="nav-link" href="{{url('/product-list')}}">
+                                <a class="nav-link" href="{{route('product.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Product</a>
                         
