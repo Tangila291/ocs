@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ProductListController extends Controller
 {
     public function Productlist (){
-        return view ('product.productlist');
+        return view ('backend.product.productlist');
     }
 
 }
